@@ -6,4 +6,4 @@ class Bebida(ItemCardapio):
         self._tamanho = tamanho
 
     def __str__(self):
-        return self._nome
+        return f'Bebida: {self._nome} | Preço: {self._preco} | Tamanho: {self._tamanho}'

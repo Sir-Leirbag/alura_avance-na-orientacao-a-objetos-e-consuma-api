@@ -7,3 +7,7 @@ class Prato(ItemCardapio):
 
     def __str__(self):
         return f'Prato: {self._nome} | Preço: {self._preco} | Descrição: {self._descricao}'
+
+    def aplicar_desconto(self):
+        self._preco -= (self._preco * 0.05)
+

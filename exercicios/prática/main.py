@@ -9,6 +9,9 @@ moto1 = Moto('Honda', 'CG 160', 'Street')
 moto2 = Moto('Yamaha', 'FZ25 Fazer', 'Naked')
 moto3 = Moto('Kawasaki', 'Ninja 400', 'Esportiva')
 
+carro1.ligar()
+moto3.ligar()
+
 print(carro1)
 print(carro2)
 print(f'{carro3}\n')

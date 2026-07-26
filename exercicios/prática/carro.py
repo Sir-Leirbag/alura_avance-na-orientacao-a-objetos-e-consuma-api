@@ -7,3 +7,6 @@ class Carro(Veiculo):
 
     def __str__(self):
         return f'{super().__str__()} | Portas: {self.portas}'
+
+    def ligar(self):
+        return super().ligar()

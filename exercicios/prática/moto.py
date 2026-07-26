@@ -7,3 +7,6 @@ class Moto(Veiculo):
 
     def __str__(self):
         return f'{super().__str__()} | tipo: {self.tipo}'
+
+    def ligar(self):
+        return super().ligar()

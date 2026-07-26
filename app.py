@@ -8,10 +8,11 @@ prato_paozinho = Prato('Pãozinho', 2.0, 'O melhor pão da cidade')
 # restaurante_praca.receber_avaliacao('Gui', 10)
 # restaurante_praca.receber_avaliacao('Lais', 8)
 # restaurante_praca.receber_avaliacao('Emy', 2)
+restaurante_praca.adicionar_no_cardapio(bebida_suco)
+restaurante_praca.adicionar_no_cardapio(prato_paozinho)
 
 def main():
-    print(bebida_suco)
-    print(prato_paozinho)
+    restaurante_praca.listar_cardapio()
 
 if __name__ == '__main__':
     main()
